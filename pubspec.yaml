@@ -1,0 +1,26 @@
+name: taiko_rhythm_proto
+description: An offline, Android-first Taiko rhythm prototype.
+publish_to: none
+version: 0.1.0+1
+
+environment:
+  sdk: '>=3.6.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  archive: ^4.3.0
+  charset: ^2.0.1
+  file_picker: ^13.1.0
+  just_audio: ^0.10.6
+  path_provider: ^2.1.6
+  idb_shim: ^2.9.9
+  web: ^1.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
